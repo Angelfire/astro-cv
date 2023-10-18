@@ -1,0 +1,31 @@
+---
+import Certifications from "../components/Certifications.astro"
+import Education from "../components/Education.astro"
+import Experience from "../components/Experience.astro"
+import Header from "../components/Header.astro"
+import Skills from "../components/Skills.astro"
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <title>CV - Andrés Bedoya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;700&family=Roboto:wght@100;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="container my-5 flex flex-col gap-5">
+      <Header />
+      <Skills />
+      <Education />
+      <Experience />
+      <Certifications />
+    </main>
+  </body>
+</html>

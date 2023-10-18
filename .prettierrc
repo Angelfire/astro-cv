@@ -1,0 +1,10 @@
+{
+  "endOfLine": "lf",
+  "useTabs": false,
+  "singleQuote": false,
+  "trailingComma": "es5",
+  "semi": false,
+  "printWidth": 100,
+  "plugins": ["prettier-plugin-astro", "prettier-plugin-tailwindcss"],
+  "pluginSearchDirs": false
+}
