@@ -1,0 +1,35 @@
+---
+import Email from "@/components/icons/Email.astro"
+import Github from "@/components/icons/Github.astro"
+import Link from "@/components/icons/Link.astro"
+import Linkedin from "@/components/icons/Linkedin.astro"
+
+import { basics } from "@resume"
+
+const { email, label, name, url } = basics
+---
+
+<header>
+  <div class="flex flex-col gap-1">
+    <h1 class="font-roboto text-3xl font-bold text-blue-500">{name}</h1>
+    <h2 class="text-2xl text-blue-500 leading-4">{label}</h2>
+  </div>
+  <div class="flex flex-row gap-5 mt-5">
+    <div class="flex flex-row items-center gap-1">
+      <Email />
+      <p class="font-roboto text-xs">{email}</p>
+    </div>
+    <div class="flex flex-row items-center gap-1">
+      <Github />
+      <p class="font-roboto text-xs">www.github.com/angelfire</p>
+    </div>
+    <div class="flex flex-row items-center gap-1">
+      <Linkedin />
+      <p class="font-roboto text-xs">www.linkedin.com/in/sabedoya</p>
+    </div>
+    <div class="flex flex-row items-center gap-1">
+      <Link />
+      <p class="font-roboto text-xs">{url}</p>
+    </div>
+  </div>
+</header>

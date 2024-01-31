@@ -1,9 +1,13 @@
 ---
-import Certifications from "../components/Certifications.astro"
-import Education from "../components/Education.astro"
-import Experience from "../components/Experience.astro"
-import Header from "../components/Header.astro"
-import Skills from "../components/Skills.astro"
+import Certifications from "@/components/sections/Certifications.astro"
+import Education from "@/components/sections/Education.astro"
+import Experience from "@/components/sections/Experience.astro"
+import Hero from "@/components/sections/Hero.astro"
+import Skills from "@/components/sections/Skills.astro"
+
+import { basics } from "@resume"
+
+const { name } = basics
 ---
 
 <html lang="en">
@@ -11,7 +15,7 @@ import Skills from "../components/Skills.astro"
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
-    <title>CV - Andrés Bedoya</title>
+    <title>{`Resume - ${name}`}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,9 +25,9 @@ import Skills from "../components/Skills.astro"
   </head>
   <body>
     <main class="container my-5 flex flex-col gap-5">
-      <Header />
-      <Skills />
+      <Hero />
       <Education />
+      <Skills />
       <Experience />
       <Certifications />
     </main>

@@ -1,0 +1,23 @@
+---
+import { certificates } from "@resume"
+---
+<section>
+  <h3 class="font-roboto text-lg uppercase text-blue-500">Certifications</h3>
+  <div class="font-roboto flex flex-row justify-between">
+    <ul class="font-roboto ml-7 list-disc text-sm leading-4">
+      {certificates.map(({ name }) => (
+        <li>{name}</li>
+      ))}
+    </ul>
+    <ul class="font-roboto text-sm text-slate-500 leading-4">
+      {certificates.map(({ date }) => {
+        const endYear = new Date(date).getFullYear()
+
+        return (
+          <li>{endYear}</li>
+        )
+      }
+      )}
+    </ul>
+  </div>
+</section>

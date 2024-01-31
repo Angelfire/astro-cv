@@ -1,0 +1,153 @@
+{
+  "basics": {
+    "name": "Andrés Bedoya Garcés",
+    "label": "Software Engineer",
+    "image": "",
+    "email": "bedoya.andres@pm.me",
+    "phone": "",
+    "url": "https://srhart.co/",
+    "summary": "A summary of Andrés Bedoya Garcés…",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Medellín",
+      "countryCode": "CO",
+      "region": "Antioquia"
+    },
+    "profiles": [{
+      "network": "LinkedIn",
+      "username": "Andrés Bedoya Garcés",
+      "url": "https://www.linkedin.com/in/sabedoya/"
+    },
+    {
+      "network": "GitHub",
+      "username": "angelfire",
+      "url": "https://github.com/angelfire"
+    }]
+  },
+  "work": [{
+    "name": "Benchmark Email",
+    "position": "Senior Frontend Engineer",
+    "city": "",
+    "country": "",
+    "url": "",
+    "startDate": "2013-11-07",
+    "endDate": null,
+    "summary": "",
+    "highlights": [
+      "Assisted the development team in the successful migration of the codebase from Backbone.js to Vue.js/Vuex and CSS modules, enhancing code maintainability and scalability.",
+      "Crafted Vue.js components with CSS modules and integrated them into Storybook for streamlined development and consistent UI testing."
+    ]
+  },
+  {
+    "name": "PayGround",
+    "position": "Senior Software Engineer",
+    "city": "",
+    "country": "",
+    "url": "",
+    "startDate": "2023-05-02",
+    "endDate": "2023-08-02",
+    "summary": "",
+    "highlights": [
+      "Add a new section to show the history of payments that have already been made. Add ability for organizations to add dunning messages.",
+      "Add a new view to make payments through plans.",
+      "Adding a new Authentication method using Organization Code.",
+      "CSP was in an early stage of development and thanks to my work during these 4 months it is now a much more stable platform, with a new authentication method and much more relevant information for the user related to their medical bills within a medical provider."
+    ]
+  },
+  {
+    "name": "Techstars",
+    "position": "Senior Software Engineer",
+    "city": "",
+    "country": "",
+    "url": "",
+    "startDate": "2021-07-02",
+    "endDate": "2022-12-02",
+    "summary": "",
+    "highlights": [
+      "Collaborated with cross-functional teams to deliver high-impact projects on time, resulting in enhanced user experiences.",
+      "Collaborated with the QA team to customize data generation scripts for specific test scenarios, resulting in more accurate and thorough testing outcomes.",
+      "Collaborated in implemented a comprehensive test suite using Jest and Testing Library, covering critical front-end components and functionalities."
+    ]
+  },
+  {
+    "name": "Gorilla Logic",
+    "position": "Senior Frontend Engineer",
+    "city": "Medellín",
+    "country": "Colombia",
+    "url": "",
+    "startDate": "2019-12-02",
+    "endDate": "2021-07-02",
+    "summary": "",
+    "highlights": [
+      "Assisted the development team in the successful migration of the codebase from Backbone.js to Vue.js/Vuex and CSS modules, enhancing code maintainability and scalability.",
+      "Actively participated in architecture definition sessions for the successful implementation of Mobile Device Management (MDM) in the application.",
+      "Designed and implemented custom shared components from scratch, tailored to specific client requirements, enhancing project modularity and reusability.",
+      "Introduced and configured Storybook, a component documentation tool, to facilitate seamless component sharing and collaboration across development squads, streamlining the development process."
+    ]
+  }],
+  "volunteer": [{}],
+  "education": [{
+    "institution": "Universidad Nacional de Colombia",
+    "city": "Medellín",
+    "country": "Colombia",
+    "url": "https://medellin.unal.edu.co/",
+    "area": "B.Sc. in Systems and Informatics Engineering",
+    "studyType": "Bachelor",
+    "startDate": "2012-01-01",
+    "endDate": "2012-07-02",
+    "score": "4.0",
+    "courses": [{}]
+  }],
+  "awards": [{}],
+  "certificates": [{
+    "name": "Curso de Introducción a la Nube, Platzi",
+    "date": "2023-01-02",
+    "issuer": "Platzi",
+    "url": ""
+  },
+  {
+    "name": "M001: MongoDB Basics, MongoDB",
+    "date": "2021-01-02",
+    "issuer": "",
+    "url": ""
+  },
+  {
+    "name": "LFS141x: Exploring GraphQL: A Query Language for APIs, edX",
+    "date": "2020-01-02",
+    "issuer": "",
+    "url": ""
+  }],
+  "publications": [],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [],
+  "projects": [{
+    "name": "Project",
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01",
+    "description": "Description...",
+    "highlights": [
+      "Won award at AIHacks 2016"
+    ],
+    "url": "https://project.com/"
+  }]
+}

@@ -1,0 +1,29 @@
+---
+import { formatDateShort } from "@/lib/utils"
+
+import { education } from "@resume"
+---
+
+<section>
+  <h3 class="font-roboto text-lg uppercase text-blue-500">Education</h3>
+  {
+    education.map(({ area, city, country, endDate, institution }) => {
+      const endDateShort = formatDateShort(endDate)
+
+      return (
+        <div class="grid grid-cols-2">
+          <div>
+            <p class="font-roboto text-sm">
+              <strong>{institution}</strong>
+            </p>
+            <p class="font-roboto text-sm">{ area }</p>
+          </div>
+          <div class="text-right">
+            <p class="font-roboto text-sm">{`${city}, ${country}`}</p>
+            <time datetime={endDate} class="font-roboto text-sm text-slate-500">{endDateShort}</time>
+          </div>
+        </div>
+      )
+    })
+  }
+</section>
